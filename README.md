@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-## Description
-The back-end database has been purposed towards e-commerce websites using Express.js API and Sequelize to connect to the MySQL database. The back-end database allows users to create a development database, seed it with test data, and sync Sequelize models to MySQL database. User's have the ability to use GET, POST, PUT, and DELETE routes to display and manipulate data in the users database. Give it a try and see how it helps your company power up to the next level!
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -41,8 +39,8 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Installation Process
-1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
-2. Open the cloned (or downloaded) repository in any source code editor.
+1. Clone the Repository from GitHub.
+2. Open the cloned repository in any source code editor.
 3. Open the integrated terminal of the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
 
 ## Built With
@@ -58,3 +56,18 @@ THEN I am able to successfully create, update, and delete data in my database
 
 
 ## Screenshots:
+Getting all Categories 
+![all categories](/Assets/GET_all_cat.png)
+
+Getting Products by ID
+![products by id](/Assets/Get_Products_ID.png)
+
+Creating a new tag
+![POST TAG](/Assets/create_new_tag.png)
+
+
+
+
+
+## Video Demo Link
+https://drive.google.com/file/d/1iykrfh-jQW4YEke_WyXvqjjGcEM_4Ajb/view

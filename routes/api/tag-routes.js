@@ -50,7 +50,7 @@ router.put('/:id', async (req, res) => {
       where: { id: req.params.id },
     });
     !updated[0]
-      ? res.status(404).json({ message: "No tagcwith id!" })
+      ? res.status(404).json({ message: "No tag with id!" })
       : res.status(200).json(updated);
   } catch (err) {
     res.status(500).json({ message: "Tag update failed" });
